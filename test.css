@@ -1,0 +1,84 @@
+body{
+    background-image: url("dark_wood.png");  
+    background-repeat: repeat-x;
+}
+
+p{ 
+    color: white;
+    font-family: "Arial"; 
+}
+
+h3{
+    color:#FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    text-decoration: underline;
+    margin-bottom: 0xp;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px white;
+    
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px; 
+}
+#Header { 
+        text-align:center; 
+    border: solid 8px black;
+    outline: rgb(255, 255, 255) solid 10px;
+    margin-left: auto; 
+    margin-right: auto;  
+    margin-bottom: 10px; 
+    width: 500px;
+    background-color: #8e41d5;
+}
+
+#Header h1{ 
+    font-size: 60px; 
+    font-family: "Passion One"; 
+    color: gold; 
+    font-weight: bold; } 
+
+
+#Content { 
+    text-align:center;
+    border: solid 8px black;
+    margin-left: auto; 
+    margin-right: auto;  
+    margin-bottom: 10px; 
+    width: 700px;
+    padding-left: 15px;
+    background-color: #8e41d5;
+}
+#LeftNav { 
+    text-align:center;
+    border: solid 8px black; 
+    margin-bottom: 10px; 
+    width: 400px;
+    float: left; 
+    padding-bottom: 8px;
+    background-color: #8e41d5;
+}
+#LeftNav ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#Footer { 
+    text-align:center;
+    border: solid 8px black; 
+    border-radius: 8px;
+    background-color: #8e41d5;
+}
+
+#Footer ul{ 
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#Header, #leftnav, #content, #footer {
+    border: solid 8px black;
+    background-color: #8e41d5; 
+}
