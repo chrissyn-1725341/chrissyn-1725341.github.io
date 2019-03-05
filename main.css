@@ -1678,6 +1678,12 @@
 
 	h2 {
 		font-size: 1.75em;
+		font-style: oblique;
+			border-radius: 50%;
+			background: pink;
+			padding: 20px; 
+			width: 200px;
+			height: 150px;
 	}
 
 	h3 {
@@ -2334,6 +2340,7 @@
 		.image img {
 			border-radius: 0;
 			display: block;
+			
 		}
 
 		.image.left, .image.right {
@@ -2354,6 +2361,7 @@
 			float: right;
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
+		
 		}
 
 		.image.fit {
@@ -2541,6 +2549,7 @@
 	header p {
 		position: relative;
 		margin: 0 0 1.5em 0;
+		text-decoration: underline;
 	}
 
 	header h2 + p {
@@ -3098,7 +3107,7 @@
 	}
 
 	#header {
-		background: #1c1c1c;
+		background: lightcoral;
 		color: #d5d5d5;
 		cursor: default;
 		height: 5em;
@@ -3137,11 +3146,12 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			color: #e5474b;
-			font-size: 1.75em;
+			color: lightpink;
+			font-size: 2.5em;
 			text-transform: none;
-			font-weight: normal;
+			font-weight: lighter;
 			padding: 0;
+			text-shadow: 2px 2px rgba (229, 71, 75, 0.75);
 		}
 
 			#header .logo:hover {
@@ -3160,6 +3170,7 @@
 			text-transform: uppercase;
 			font-weight: 700;
 			font-size: .85em;
+			text-decoration: underline;
 		}
 
 			#header a:hover {
@@ -3372,6 +3383,9 @@
 		text-align: left;
 		position: relative;
 		z-index: 9999;
+		opacity: 0.5;
+  		filter: alpha(opacity=50);
+
 	}
 
 		#banner input, #banner select, #banner textarea {
@@ -3511,10 +3525,13 @@
 			padding: 0;
 			letter-spacing: 3px;
 			font-weight: 700;
+			text-shadow: 0 0 20px #FF0000;
+			
 		}
 
 			#banner h1 span {
 				font-weight: 400;
+				letter-spacing: 6px;
 			}
 
 		body.is-loading #banner:after {
@@ -3557,6 +3574,7 @@
 
 				#banner h1 {
 					font-size: 1.75em;
+			
 				}
 
 		}
@@ -3920,6 +3938,9 @@
 			max-width: 65em;
 			width: calc(100% - 6em);
 			margin: 0 auto;
+				height: 900px;
+				background-color: red; 
+				background-image: linear-gradient(red, yellow);
 		}
 
 			@media screen and (max-width: 480px) {
@@ -3935,6 +3956,14 @@
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0;
+				border-radius: 25px;
+				border-style: dotted;
+				border-width: 2px;
+				border-color: white;
+				padding: 20px; 
+				width: 200px;
+				height: 150px; 
+			  
 		}
 
 			#footer .copyright a {
